@@ -52,15 +52,13 @@ e retorna a taxa de acerto</li>
   
   
 #### Comandos utilizados da biblioteca:
-<ul> Pandas
-<li><code>.fit(CARACTERISTICAS_A_SEREM_TREINADAS , OBJETOS_QUE_SERÃO_INDENTIFICADOS)</code> ->Treinamento da inteligencia</li>
+ ##### Pandas <ul>
+<li><code>pd.read_csv(SEU_DATAFRAME)</code> ->Leitura do Dataframe</li>
 <li><code>.rename(columns = LISTA_COM_OS_NOVOS_NOMES_DA_COLUNA)</code> ->Recebe uma lista com os novos nomes e os substitui</li>
-<li><code>accuracy_score(TESTE , PREVISÕES)</code> ->Utiliza o material de teste e o compara com o que foi já foi testado (predict) 
-e retorna a taxa de acerto</li>
 </ul>
 
-<ul> SKLearn
-<li><code>pd.read_csv(SEU_DATAFRAME)</code> ->Leitura do Dataframe</li>
+ ##### SKLearn <ul>
+<li><code>.fit(CARACTERISTICAS_A_SEREM_TREINADAS , OBJETOS_QUE_SERÃO_INDENTIFICADOS)</code> ->Treinamento da inteligencia</li>
 <li><code>.predict([OBJETO_A_SER_ADIVINHADO])</code> ->Verifica qual o tipo do objeto</li>
 <li><code>accuracy_score(TESTE , PREVISÕES)</code> ->Utiliza o material de teste e o compara com o que foi já foi testado (predict) 
 e retorna a taxa de acerto</li>
